@@ -61,10 +61,10 @@ public class Cliente {
     @Override
     public String toString() {
         return "Cliente{" +
-                "id=" + id +
-                ", membresia=" + membresia +
+                "id=" + id + '\'' +
                 ", nombre='" + nombre + '\'' +
                 ", apellido='" + apellido + '\'' +
+                ", membresia=" + membresia +
                 '}';
     }
 
